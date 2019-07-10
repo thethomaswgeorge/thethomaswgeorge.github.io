@@ -89,6 +89,9 @@
          case "urge":
              changeTheme('#fff', '#27ae60');
              break;
+         case "heap":
+             changeTheme('#fff', '#1fb4fe');
+             break;
 
      }
  });
