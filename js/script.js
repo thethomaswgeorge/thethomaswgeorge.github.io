@@ -90,7 +90,7 @@
              changeTheme('#fff', '#27ae60');
              break;
          case "heap":
-             changeTheme('#fff', '#1fb4fe');
+             changeTheme('#1fb4fe', '#fff');
              break;
 
      }
