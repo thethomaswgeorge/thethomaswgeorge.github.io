@@ -107,8 +107,8 @@
             font-size: 22px;
 font-weight: bold;
         }
-        #right-bottom-paypal-coffee {
-            
+        #mergefeed-link {
+            border: 2px solid rgb(41, 171, 226);
         }
         .timesExit {
             position: fixed;
