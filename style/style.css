@@ -3,12 +3,11 @@ html, body {
     margin: 0;
     font-family: 'Karla', sans-serif;
     line-height: 1.85rem;
-    color: #000;
+    color: #000 !important;
 }
 #container {
     background-color: #fefefe;
     min-height: 100vh;
-
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
@@ -266,6 +265,9 @@ div.project-box:hover {
     -webkit-filter: grayscale(0);
     filter: none;
 }
+ * {
+     color: #000 !important;
+ }
 #my-image {
     height: 200px;
     border: 3px solid white;
