@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     font-family: 'Karla', sans-serif;
     line-height: 1.85rem;
+    color: #000;
 }
 #container {
     background-color: #fefefe;
