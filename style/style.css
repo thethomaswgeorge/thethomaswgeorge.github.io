@@ -402,7 +402,7 @@ ul#mobile-ul i {
     text-transform: uppercase;
     text-align: center;
 }
-ul#language-ul {
+#language-table {
     border: 3px solid;
     list-style-type: none;
     display: inline-block;
@@ -412,7 +412,6 @@ ul#language-ul {
     border-radius: 5px;
 }
 #language-table tr td {
-    display: inline-block;
     padding: 5px 10px;
     border-right: 3px solid #333;
     cursor: pointer;
