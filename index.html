@@ -255,6 +255,17 @@
         <div class="center">
             <h2 class="head-title">Previous Projects</h2>
         </div>
+        <div id="optionLanguage" class="center">
+            <ul id="language-ul">
+                <li id="html5">HTML5</li>
+                <li id="css3">CSS3</li>
+                <li id="php">PHP</li>
+                <li id="jquery">jQuery</li>
+                <li id="cpp">C++</li>
+                <li id="mysql">MySQL</li>
+                <li id="firebase">Google Firebase</li>
+            </ul>
+        </div>
         <div id="work"><!--
 			<a href="#cruise-div" title="More Information">
 				<div class="project-box" id="cruise" style="background-image: url('img/cruise2.png')">
@@ -572,7 +583,9 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script src="js/script.js"></script>
     <script>
-
+        $("#optionLanguage li").on("click",function() {
+            console.log(this.id);
+        })
     </script>
 </footer>
 </html>
