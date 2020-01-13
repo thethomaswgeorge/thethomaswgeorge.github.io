@@ -411,15 +411,9 @@ ul#language-ul {
     margin: 0;
     border-radius: 5px;
 }
-ul#language-ul li {
+#language-table tr td {
     display: inline-block;
     padding: 5px 10px;
     border-right: 3px solid #333;
     cursor: pointer;
-}
-ul#language-ul li.last {
-    border:none;
-}
-ul#language-ul li:hover {
-    background-color: #ccc;
 }
