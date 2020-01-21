@@ -143,7 +143,7 @@
                 </ul>
         	</div>
             <div class="job-row">
-                <h3 class="center">Mossy Oak Properties, West Point, MS | <i>Junior Software Engineer</i></h3>
+                <h3 class="center"><a href="https://www.mossyoakproperties.com/" class="underline" title="Visit the New Site" target="_blank">Mossy Oak Properties</a>, West Point, MS | <i>Junior Software Engineer</i></h3>
                 <div class="center">
                     <small class="center">August 2018 - May 2019</small>
                 </div>
@@ -255,18 +255,17 @@
         <div class="center">
             <h2 class="head-title">Previous Projects</h2>
         </div>
-        <div id="optionLanguage" class="center hidden">
-            <table id="language-table">
-                <tr>
-                    <th id="html5">HTML5</th>
-                    <th id="css3">CSS3</th>
-                    <th id="php">PHP</th>
-                    <th id="jquery">jQuery</th>
-                    <th id="cpp">C++</th>
-                    <th id="mysql">MySQL</th>
-                    <th id="firebase">Google Firebase</th>
-                </tr>
-            </table>
+        <script>
+        </script>
+        <div id="optionLanguage" class="center">
+            <button id="all-btn" class="tab-btn current-btn" onclick="displayProjects('all')">All Projects</button>
+            <button id="html5-btn" class="tab-btn" onclick="displayProjects('html5')">HTML5</button>
+            <button id="css3-btn" class="tab-btn" onclick="displayProjects('css3')">CSS3</button>
+            <button id="php-btn" class="tab-btn" onclick="displayProjects('php')">PHP</button>
+            <button id="jquery-btn" class="tab-btn" onclick="displayProjects('jquery')">jQuery</button>
+            <button id="cpp-btn" class="tab-btn" onclick="displayProjects('cpp')">C++</button>
+            <button id="mysql-btn" class="tab-btn" onclick="displayProjects('mysql')">MySQL</button>
+            <button id="firebase-btn" class="tab-btn" onclick="displayProjects('firebase')">Google Firebase</button>
         </div>
         <div id="work"><!--
 			<a href="#cruise-div" title="More Information">
@@ -277,34 +276,34 @@
                 <div class="project-box" id="ergo" style="background-image: url('img/ergo.png')">
                     <i class="fab fa-github-alt onGitHub light" style="position: absolute;bottom: 0;right: 0;font-size: 35px;box-sizing: border-box;margin: 6px 9px;/*! float: right; */"></i>
                 </div>
-            </a><a href="#glory-div" title="More Information">
+            </a><a href="#glory-div" title="More Information" class="html5 css3 jquery">
                 <div class="project-box" id="glory" style="background-image: url('img/New Project (1).png')">
                 </div>
-            </a><a href="#moolah-div" title="More Information">
+            </a><a href="#moolah-div" title="More Information" class="html5 php css3 mysql">
                 <div class="project-box" id="moolah" style="background-image: url('img/moolah.png')">
                 </div>
             </a>
-            <a href="#topnotch-div" title="More Information">
+            <a href="#topnotch-div" title="More Information" class="html5 php css3 jquery mysql">
                 <div class="project-box" id="topnotch" style="background-image: url('img/New Project(1).png')">
 
                 </div>
             </a>
-            <a href="#ttl-div" title="More Information">
+            <a href="#ttl-div" title="More Information" class="html5 php css3 mysql">
                 <div class="project-box" id="ttl" style="background-image: url('img/17854922_1251982241521936_8519234958610297504_o.jpg');">
 
                 </div>
             </a>
-            <a href="#reach-div" title="More Information">
+            <a href="#reach-div" title="More Information" class="html5 php css3 jquery mysql">
                 <div class="project-box" id="reach" style="background-image: url('img/reach.png')">
 
                 </div>
             </a>
-            <a href="#merge-div" title="More Information">
+            <a href="#merge-div" title="More Information" class="html5 php css3 jquery mysql">
                 <div class="project-box" id="merge" style="background-image: url('img/New Project (2).png')">
 
                 </div>
             </a>
-            <a href="#rotg-div" title="More Information">
+            <a href="#rotg-div" title="More Information" class="html5 php css3 jquery mysql">
                 <div class="project-box" id="rotg" style="background-image: url('img/rotg.jpg')">
 
                 </div>
@@ -319,23 +318,23 @@
 
 				</div>
 			</a>-->
-            <a href="#bibliotaf-div" title="More Information">
+            <a href="#bibliotaf-div" title="More Information" class="html5 jquery firebase">
                 <div class="project-box" id="bibliotaf" style="background-image: url('img/New Project (4).png')">
 
                 </div>
             </a>
-            <a href="#validate-div" title="More Information">
+            <a href="#validate-div" title="More Information" class="html5 css3 jquery firebase">
                 <div class="project-box" id="validate" style="background-image: url('img/New Project (7).png')">
 
                     <i class="fab fa-github-alt onGitHub light" style="position: absolute;bottom: 0;right: 0;font-size: 35px;box-sizing: border-box;margin: 6px 9px;/*! float: right; */"></i>
                 </div>
             </a>
-            <a href="#urge-div" title="More Information">
+            <a href="#urge-div" title="More Information" class="html5 css3 jquery firebase">
                 <div class="project-box" id="urge" style="background-image: url('img/New Project (6).png')">
 
                 </div>
             </a>
-            <a href="#heap-div" title="More Information">
+            <a href="#heap-div" title="More Information" class="html5 css3 php mysql">
                 <div class="project-box" id="heap" style="background-image: url('img/heap2.png')">
     
                 </div>
@@ -427,7 +426,9 @@
                 </div>
                 <div class="logo-text">
                     <h3>Social Media Automation Platform</h3>
-                    <p></p>
+                    <h5 class="programming-languages">HTML5, CSS3, jQuery, PHP7</h5>
+                    <p>This was my attempt at making a mox between Buffer and Hootsuite.  </p>
+                    <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
                 </div>
             </div>
         </div>
@@ -463,7 +464,7 @@
                 </div>
                 <div class="logo-text">
                     <h3>University-based Education Software</h3>
-                    <p>They say <i><a href="https://www.youtube.com/watch?v=r56wALXri0U" target="_blank">Innovation is born from the struggle</a></i>, and well... I built this one specifically because the current education platform my University was using was sub-par and I wanted to design my own platform for the Student and the Teacher to come together in one place to grow, learn, and understand each topic.</p>
+                    <p>They say <i><a id="struggle-id" href="https://www.youtube.com/watch?v=r56wALXri0U" target="_blank">Innovation is born from the struggle</a></i>, and well... I built this one specifically because the current education platform my University was using was sub-par and I wanted to design my own platform for the Student and the Teacher to come together in one place to grow, learn, and understand each topic.</p>
                     <a href="http://www.thethomasgeorge.com/topnotch" target="_blank" id="topnotch-button" title="Visit Top Notch University" class="visit-a">Visit Site</a>
 
                 </div>
@@ -490,6 +491,7 @@
                 <div class="logo-text">
                     <h3>Shopify/WordPress Rewards App</h3>
                     <p></p>
+                    <a href="#" title="Link Coming Soon.." class="visit-a">Link Coming Soon..</a>
                 </div>
 
             </div>

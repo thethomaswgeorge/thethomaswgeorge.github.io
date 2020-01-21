@@ -117,5 +117,19 @@
  function changeTheme(mainColor, linkColor) {
      document.getElementById("container").style.background = mainColor;
      document.getElementById("container").style.color = linkColor;
-
  }
+ 
+ function displayProjects(codeToShow) {
+    if(codeToShow === 'all') {
+        $(".project-box").removeClass("hidden");
+        $(".tab-btn").removeClass("current-btn");
+        $("#all-btn").addClass("current-btn");
+    } else {
+        $(".project-info").addClass("hidden");
+        $(".project-box").addClass("hidden");
+        $(".tab-btn").removeClass("current-btn");
+        $("#"+codeToShow+'-btn').addClass("current-btn");
+        console.log(codeToShow);
+        $("."+codeToShow+" .project-box").removeClass("hidden");
+    }
+}
