@@ -222,13 +222,15 @@ a:hover {
     font-size: 22px;
 }
 #social {
-    background: #efefef;
+    background: transparent;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 50px;
     font-size: 45px;
-    font-family: inherit
+    font-family: inherit;
+    background-image: linear-gradient(transparent,transparent,#333);
+
 }
 #contact {
     background: #222;
