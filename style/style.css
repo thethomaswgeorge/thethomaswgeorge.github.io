@@ -246,9 +246,14 @@ a:hover {
     box-sizing: border-box;
     padding: 50px;
 }
-
-a.top-ref-links {
+div.top-quick-ref {
+    background-color: #333;
     color: #fff;
+    box-sizing:border-box;
+    padding: 15px;
+}
+a.top-ref-links {
+    color: inherit;
     font-family: inherit;
     margin: 0 20px;
     font-size: 25px;
