@@ -246,6 +246,14 @@ a:hover {
     box-sizing: border-box;
     padding: 50px;
 }
+
+a.top-ref-links {
+    color: #fff;
+    font-family: inherit;
+    margin: 0 20px;
+    font-size: 25px;
+}
+
 #optionLanguage {
     padding: 30px 0;
 }
