@@ -8,6 +8,28 @@
      });
  });
 
+$(".tag-tool").on("click", function() {
+    document.getElementById('previous-projects').scrollIntoView();
+    if ( $( this ).hasClass( "php" ) ) {
+        displayProjects('php');
+    }
+    if ( $( this ).hasClass( "css" ) ) {
+        displayProjects('css3');
+    }
+    if ( $( this ).hasClass( "html" ) ) {
+        displayProjects('html5');
+    }
+    if ( $( this ).hasClass( "mysql" ) ) {
+        displayProjects('mysql');
+    }
+    if ( $( this ).hasClass( "firebase" ) ) {
+        displayProjects('firebase');
+    }
+    if ( $( this ).hasClass( "js" ) ) {
+        displayProjects('jquery');
+    }
+});
+
  function sayHello() {
      console.log("You sneaky developer you ;)");
      console.log("I don't have much here, but if the screen it too bright, just type \"darkMode()\" and hit enter!");

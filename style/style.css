@@ -240,6 +240,13 @@ a:hover {
     margin:0 10px;
 }
 
+.tag-tool {
+    cursor:pointer;
+}
+.tag-tool:hover {
+    text-decoration: underline;
+}
+
 #contact form {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
