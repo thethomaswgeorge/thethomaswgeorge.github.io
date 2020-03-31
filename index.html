@@ -277,6 +277,8 @@
         <div id="optionLanguage" class="center">
             <button id="all-btn" class="tab-btn current-btn" onclick="displayProjects('all')">All Projects</button>
             <button id="html5-btn" class="tab-btn" onclick="displayProjects('html5')">HTML5</button>
+            <button id="react-btn" class="tab-btn" onclick="displayProjects('react')">ReactJS</button>
+            <button id="backbone" class="tab-btn" onclick="displayProjects('backbone')">BackboneJS</button>
             <button id="css3-btn" class="tab-btn" onclick="displayProjects('css3')">CSS3</button>
             <button id="php-btn" class="tab-btn" onclick="displayProjects('php')">PHP</button>
             <button id="jquery-btn" class="tab-btn" onclick="displayProjects('jquery')">jQuery</button>
@@ -288,8 +290,11 @@
 			<a href="#cruise-div" title="More Information">
 				<div class="project-box" id="cruise" style="background-image: url('img/cruise2.png')">
 				</div>
-			</a>-->
-            <a href="#ergo-div" title="More Information">
+            </a>-->
+            <a href="#scout-div" title="More information" class="html5 php css3 mysql">
+                <div class="project-box" id="scout" style="background-image: url('img/scoutturf.png')"></div>
+            </a>
+            <a href="#ergo-div" title="More Information" class="html5 css3 firebase react">
                 <div class="project-box" id="ergo" style="background-image: url('img/ergo.png')">
                     <i class="fab fa-github-alt onGitHub light" style="position: absolute;bottom: 0;right: 0;font-size: 35px;box-sizing: border-box;margin: 6px 9px;/*! float: right; */"></i>
                 </div>
@@ -324,12 +329,12 @@
                 <div class="project-box" id="rotg" style="background-image: url('img/rotg.jpg')">
 
                 </div>
-            </a><!--
-			<a href="#mla-div" title="More Information">
+            </a>
+			<a href="#mla-div" title="More Information" class="wordpress html5 css3 php jquery">
 				<div class="project-box" id="mla" style="background-image: url('img/New Project (3).png')">
 
 				</div>
-			</a>
+			</a><!--
 			<a href="#kreadiv-div" title="More Information">
 				<div class="project-box" id="kreadiv" style="background-image: url('img/New Project (5).png')">
 
@@ -340,13 +345,13 @@
 
                 </div>
             </a>
-            <a href="#validate-div" title="More Information" class="html5 css3 jquery firebase">
+            <a href="#validate-div" title="More Information" class="html5 css3 react firebase">
                 <div class="project-box" id="validate" style="background-image: url('img/New Project (7).png')">
 
                     <i class="fab fa-github-alt onGitHub light" style="position: absolute;bottom: 0;right: 0;font-size: 35px;box-sizing: border-box;margin: 6px 9px;/*! float: right; */"></i>
                 </div>
             </a>
-            <a href="#urge-div" title="More Information" class="html5 css3 jquery firebase">
+            <a href="#urge-div" title="More Information" class="html5 css3 react firebase">
                 <div class="project-box" id="urge" style="background-image: url('img/New Project (6).png')">
 
                 </div>
@@ -370,7 +375,7 @@
                 </div>
                 <div class="logo-text">
                     <h3>Automated Marketing Software</h3>
-                    <h5 class="programming-languages"><span class="tag-tool html">HTML5</span>, <span class="tag-tool css">CSS3</span>, KnockOutJS, Google Firebase</h5>
+                    <h5 class="programming-languages"><span class="tag-tool html">HTML5</span>, <span class="tag-tool css">CSS3</span>, ReactJS, Google Firebase</h5>
                     <p>This is a software I built to compete with Good Adsense.  It enables website owners to advertise their services easily and effectively through their website and other websites while keeping a detailed log of the actions and location of the visitors.</p>
                 </div>
 
@@ -383,7 +388,7 @@
                 </div>
                 <div class="logo-text">
                     <h3>Web Analytics Software</h3>
-                    <h5 class="programming-languages">HTML5, CSS3, jQuery, Google Firebase</h5>
+                    <h5 class="programming-languages">HTML5, CSS3, ReactJS, Google Firebase</h5>
                     <p>The purpose of this project came to me when I was having trouble with Google Analytics and getting it to show me relevant and detailed steps that I can take to improve my traffic based on what my traffic was currently made up of.</p>
                     <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
                 </div>
@@ -463,8 +468,8 @@
         </div>
         <div id="ttl-div" class="hidden project-info">
             <div class="center-div">
-                <div style="background-image:url('img/17854922_1251982241521936_8519234958610297504_o.jpg')" class="logo-info">
-
+                <div  class="logo-info">
+                    <iframe width="400" height="225" src="https://www.youtube.com/embed/GJyLGIAeVKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="logo-text">
                     <h3>Teacher Lesson Plan Marketplace</h3>
@@ -527,6 +532,16 @@
 
             </div>
         </div>
+        <div id="scout-div" class="hidden project-info">
+            <div class="center-div">
+                <div class="logo-info"><iframe width="400" height="225" src="https://www.youtube.com/embed/zNbR9DJzqXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="logo-text">
+                    <h3>Scout Turf | Pesticide and Field Records Management</h3>
+                    <p>Scout Turf is the one-stop-shop for keeping all of your environmental records for Pesticide Applications.</p>
+                    <a href="https://www.scoutturf.com/?porfolio" target="_blank" title="Visit Scout Turf" class="visit-a">Visit Site</a>
+                </div>
+            </div>
+        </div>
         <div id="ergo-div" class="hidden project-info">
             <div class="center-div">
                 <div style="background-image:url('img/ergo.png')" class="logo-info">
@@ -534,7 +549,7 @@
                 </div>
                 <div class="logo-text">
                     <h3>Google Keep Re-design</h3>
-                    <p></p>
+                    <h5 class="programming-languages"><span class="tag-tool html">HTML5</span>, <span class="tag-tool css">CSS3</span>, <span class="tag-tool react">ReactJS</span>, Google Firebase</h5>
                 </div>
             </div>
         </div>
