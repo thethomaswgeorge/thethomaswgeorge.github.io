@@ -13,4 +13,7 @@
     #head-banner {
         height: 100vh;
     }
+    button.tab-btn {
+        margin-bottom: 20px;
+    }
 }
