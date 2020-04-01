@@ -407,6 +407,15 @@ ul#mobile-ul {
     font-size: 25px;
     background: #222;
 }
+.logo-info .video-icon {
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+
+.logo-info .video-icon i {
+    text-align: center;
+    font-size: 30px;
+}
 ul#mobile-ul li {
     box-sizing: border-box;
     padding: 10px 10px;
