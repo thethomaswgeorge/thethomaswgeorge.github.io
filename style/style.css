@@ -408,7 +408,6 @@ ul#mobile-ul {
     background: #222;
 }
 .logo-info .video-icon {
-<<<<<<< HEAD
     text-align: center;
     font-size: 30px;
 }
@@ -416,16 +415,6 @@ ul#mobile-ul {
 .logo-info .video-icon i {
     box-sizing: border-box;
     padding: 10px 5px;
-    text-align:center;
-=======
-    box-sizing: border-box;
-    padding: 10px 5px;
-}
-
-.logo-info .video-icon i {
-    text-align: center;
-    font-size: 30px;
->>>>>>> 39bffd9c3a7a23d69aff7a2133f01820406c58c7
 }
 ul#mobile-ul li {
     box-sizing: border-box;
