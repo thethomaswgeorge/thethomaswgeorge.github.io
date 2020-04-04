@@ -1,0 +1,33 @@
+@media only screen and (max-width: 900px) {
+    .hideOnMobile {
+        display:none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .non-mobile {
+        display:none;
+    }
+    .mobile {
+        display:inline-block;
+    }
+    #head-banner {
+        height: 100vh;
+    }
+    button.tab-btn {
+        margin-bottom: 20px;
+    }
+    div#blog-listings .blog-article {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        vertical-align: top;
+        background-size: cover;
+    }
+    h3.blog-title {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        font-size: 26px;
+        line-height: 1.5em;
+    }
+}
