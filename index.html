@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Portfolio | Thomas George</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Dedicated and efficient Full-Stack Web Developer with over 8 years experience brainstorming, building, and maintaining business-level software.  I believe in websites and software should each have a unique brand that expresses its unique talent just like people have personalities.  My passion is bringing ideas never thought possible to life with the use of code and a little ingenuity.">
-    <meta name="keywords" content="Thomas, George, Full Stack, Developer, PHP, jQuery, COBOL, Google Firebase, Dark Mode">
+    <meta name="description"
+        content="Dedicated and efficient Full-Stack Web Developer with over 8 years experience brainstorming, building, and maintaining business-level software.  I believe in websites and software should each have a unique brand that expresses its unique talent just like people have personalities.  My passion is bringing ideas never thought possible to life with the use of code and a little ingenuity.">
+    <meta name="keywords"
+        content="Thomas, George, Full Stack, Developer, PHP, jQuery, COBOL, Google Firebase, Dark Mode">
     <meta name="author" content="Thomas George">
     <meta property="og:title" content="Portfolio | Thomas George">
-    <meta property="og:description" content="Dedicated and efficient Full-Stack Web Developer with over 8 years experience brainstorming, building, and maintaining business-level software.  I believe in websites and software should each have a unique brand that expresses its unique talent just like people have personalities.  My passion is bringing ideas never thought possible to life with the use of code and a little ingenuity.">
+    <meta property="og:description"
+        content="Dedicated and efficient Full-Stack Web Developer with over 8 years experience brainstorming, building, and maintaining business-level software.  I believe in websites and software should each have a unique brand that expresses its unique talent just like people have personalities.  My passion is bringing ideas never thought possible to life with the use of code and a little ingenuity.">
     <meta property="og:image" content="http://www.thethomasgeorge.com/img/myProfile.jpg">
     <meta property="og:url" content="http://www.thethomasgeorge.com/?FB">
     <meta name="twitter:title" content="Thomas George | Senior Lead Full-Stack Developer">
-    <meta name="twitter:description" content="Dedicated and efficient Full-Stack Web Developer with over 8 years experience brainstorming, building, and maintaining business-level software.  I believe in websites and software should each have a unique brand that expresses its unique talent just like...">
+    <meta name="twitter:description"
+        content="Dedicated and efficient Full-Stack Web Developer with over 8 years experience brainstorming, building, and maintaining business-level software.  I believe in websites and software should each have a unique brand that expresses its unique talent just like...">
     <meta name="twitter:image" content=" http://euro-travel-example.com/thumbnail.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@thetwgeorge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Karla|Roboto" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="apple-touch-icon-152x152.png"/>
+    <link rel="shortcut icon" type="image/png" href="apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
@@ -35,9 +40,10 @@
     <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;"/>
+    <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
     <meta name="msapplication-square70x70logo" content="img/mstile-70x70.png" />
     <meta name="msapplication-square150x150logo" content="img/mstile-150x150.png" />
@@ -46,600 +52,696 @@
 </head>
 
 <body>
-<div id="container">
-    <div id="paypal-coffee" class="hidden">
-        <div class="center-div center">
-        <i class="fas fa-times timesExit" onclick="hideCoffee()"></i>
-        <div id="left-paypal-coffee">
-            <i class="fas fa-coffee"></i>
-        </div>
-        <div id="right-paypal-coffee">
-            <div id="right-top-paypal-coffee">
-                Like the site?  Donate some coffee!
-            </div>
-            <div id="right-bottom-paypal-coffee">
-                <div>
-                       <input type="radio"  onclick="submitPaypal()" name="coffeePrice" value="5"> Starbucks Coffee <input type="radio"  onclick="submitPaypal()" name="coffeePrice" id="twofifty" value="2.50">  <label for="twofifty">Regular Coffee</label> <input type="radio" name="coffeePrice"  onclick="submitPaypal()" id="onefifty"> <label for="onefifty">Gas Station Coffee</label>
+    <div id="container">
+        <div id="paypal-coffee" class="hidden">
+            <div class="center-div center">
+                <i class="fas fa-times timesExit" onclick="hideCoffee()"></i>
+                <div id="left-paypal-coffee">
+                    <i class="fas fa-coffee"></i>
                 </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="head-banner">
-        <div class="overlay">
-            <div class="center-div">
-				<span id="head-logo">
-					<img src="img/mstile-310x310.png" alt="Thomas George Portfolio">
-				</span>
-                <div id="head-ul-span" class="right non-mobile">
-					<ul >
-						<li><a href="#about">About</a></li>
-						<li><a href="http://blog.thethomasgeorge.com/" target="_blank">Blog</a></li>
-						<li><a href="#jobs">Experience</a></li>
-						<li><a href="#work">Projects</a></li>
-						<li><a href="#social">Social</a></li>
-					</ul>
-				</div>
-                <div id="mobile-ul-span" class="right mobile">
-					<i class="fas fa-bars" id="bars"></i>
-					<ul class="hidden" id="mobile-ul">
-						<i class="fas fa-times" id="hide-mobile-menu"></i>
-						<li><a class="hide-mobile-menu" href="#about">About</a></li>
-						<li><a class="hide-mobile-menu" href="#jobs">Experience</a></li>
-						<li><a class="hide-mobile-menu" href="#work">Projects</a></li>
-						<li><a class="hide-mobile-menu" href="#social">Social</a></li>
-					</ul>
-				</div>
-                <div class="center-div center" id="profile">
-                    <img src="img/myProfile.jpg" id="my-image" alt="Thomas George Profile">
-                    <h1>Thomas George</h1>
-                    <h2>Senior Lead Full-Stack Developer</h2>
+                <div id="right-paypal-coffee">
+                    <div id="right-top-paypal-coffee">
+                        Like the site? Donate some coffee!
+                    </div>
+                    <div id="right-bottom-paypal-coffee">
+                        <div>
+                            <input type="radio" onclick="submitPaypal()" name="coffeePrice" value="5"> Starbucks Coffee
+                            <input type="radio" onclick="submitPaypal()" name="coffeePrice" id="twofifty" value="2.50">
+                            <label for="twofifty">Regular Coffee</label> <input type="radio" name="coffeePrice"
+                                onclick="submitPaypal()" id="onefifty"> <label for="onefifty">Gas Station Coffee</label>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
-    </div>
-    <div class="center non-mobile top-quick-ref">
-        <a class="top-ref-links" href="https://github.com/thethomaswgeorge" title="View My Github" target="_blank">Github</a>
-        <a class="top-ref-links" href="https://www.linkedin.com/in/twgeorge1994/" target="_blank" title="View My LinkedIn">LinkedIn</a>
-        <a class="top-ref-links" href="http://thethomasgeorge.com/cv.docx" target="_blank" title="View My Resume">Resume</a>
-    </div>
-    <div id="hidden-info" class="hidden">
-        <div class="hidden project-display" id="ergo-box">
-            <div style="background-image:url('img/ergo.png')" class="left-div">
-            </div>
-            <div class="right-div">
-                <h2>Ergo</h2>
-                <h3>Google Keep Re-design</h3>
-                <p></p>
-                <a href="" class="disabled">View Website</a>
-            </div>
-        </div>
-        <div class="hidden project-display" id="topnotch-box">
-            <div style="background-image:url('img/New Project(1).png')" class="left-div">
+        <div id="head-banner">
+            <div class="overlay">
+                <div class="center-div">
+                    <span id="head-logo">
+                        <img src="img/mstile-310x310.png" alt="Thomas George Portfolio">
+                    </span>
+                    <div id="head-ul-span" class="right non-mobile">
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="http://blog.thethomasgeorge.com/" target="_blank">Blog</a></li>
+                            <li><a href="#jobs">Experience</a></li>
+                            <li><a href="#work">Projects</a></li>
+                            <li><a href="#social">Social</a></li>
+                        </ul>
+                    </div>
+                    <div id="mobile-ul-span" class="right mobile">
+                        <i class="fas fa-bars" id="bars"></i>
+                        <ul class="hidden" id="mobile-ul">
+                            <i class="fas fa-times" id="hide-mobile-menu"></i>
+                            <li><a class="hide-mobile-menu" href="#about">About</a></li>
+                            <li><a class="hide-mobile-menu" href="#jobs">Experience</a></li>
+                            <li><a class="hide-mobile-menu" href="#work">Projects</a></li>
+                            <li><a class="hide-mobile-menu" href="#social">Social</a></li>
+                        </ul>
+                    </div>
+                    <div class="center-div center" id="profile">
+                        <img src="img/myProfile.jpg" id="my-image" alt="Thomas George Profile">
+                        <h1>Thomas George</h1>
+                        <h2>Senior Lead Full-Stack Developer</h2>
+                    </div>
+                </div>
 
             </div>
-            <div class="right-div">
-                <h2>Top Notch</h2>
-                <h3>In-class Educational Resource Software</h3>
-                <p></p>
+        </div>
+        <div class="center non-mobile top-quick-ref">
+            <a class="top-ref-links" href="https://github.com/thethomaswgeorge" title="View My Github"
+                target="_blank">Github</a>
+            <a class="top-ref-links" href="https://www.linkedin.com/in/twgeorge1994/" target="_blank"
+                title="View My LinkedIn">LinkedIn</a>
+            <a class="top-ref-links" href="http://thethomasgeorge.com/cv.docx" target="_blank"
+                title="View My Resume">Resume</a>
+        </div>
+        <div id="hidden-info" class="hidden">
+            <div class="hidden project-display" id="ergo-box">
+                <div style="background-image:url('img/ergo.png')" class="left-div">
+                </div>
+                <div class="right-div">
+                    <h2>Ergo</h2>
+                    <h3>Google Keep Re-design</h3>
+                    <p></p>
+                    <a href="" class="disabled">View Website</a>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="center-div" style="overflow:hidden;">
-        <div class="hidden">
-            <i class="far fa-moon background-icons hideOnMobile" id="moon-hover" onclick="darkMode()"></i>
-            <i class="fas fa-coffee background-icons hideOnMobile" id="coffee-hover" onclick="displayPaypalCoffee()"></i>
-            <i class="fas fa-compact-disc background-icons hideOnMobile" id="vinyl-hover" onclick="displayRecordPlayer()"></i>
-            <i class="fas fa-donate background-icons hideOnMobile" id="donate-hover" onclick="displayCodeOfVets()"></i>
-        </div>
-        <div class="center">
-            <h2 class="head-title">About Me</h2>
-        </div>
-        <div class="center-div center">
-            <p>
-                Dedicated and efficient Full-Stack Web Developer with over 8 years experience brainstorming, building, and maintaining business-level software.  I believe in websites and software should each have a unique brand that expresses its unique talent just like people have personalities.  My passion is bringing ideas never thought possible to life with the use of code and a little ingenuity.
-            </p>
-        </div>
-        <div class="center">
-            <h2 class="head-title">Professional Experience</h2>
-        </div>
-        <div id="jobs">
-        	<div class="job-row">
-        		<h3 class="center">BPO USA LLC | <i>Senior Lead Full-Stack Developer</i></h3>
-        		<div class="center">
-        			<small class="center">May 2019 - December 2019 | Remote</small>
-        		</div>
-                <div class="center">
-                    <b>Tools Used:</b> Visual Studio Code, Github, <span class="tag-tool html">HTML5</span> , <span class="tag-tool php">PHP7</span>, <span class="tag-tool css">CSS</span>, <span class="tag-tool js">Javascript</span>, <span class="tag-tool js">jQuery</span>, Postman
-                </div>
-                <ul>
-                    <li>Work with an established team of developers and interact with product managers, marketing teams and designers</li>
-                    <li>Makes recommendations towards the development of new code or reuse of existing code</li>
-                    <li>Oversee a group of developers to make sure projects and tasks get completed in a timely manner</li>
-                </ul>
-        	</div>
-            <div class="job-row">
-                <h3 class="center"><a href="https://www.mossyoakproperties.com/" class="underline" title="Visit the New Site" target="_blank">Mossy Oak Properties</a>, West Point, MS | <i>Junior Software Engineer</i></h3>
-                <div class="center">
-                    <small class="center">August 2018 - May 2019</small>
-                </div>
-                <div class="center">
-                    <b>Tools Used:</b> Visual Studio, WordPress, Javascript, C#, ASP.NET, <span class="tag-tool html">HTML5</span>, REST APIs, MySQL
-                </div>
-                <ul>
-                    <li>Integrated data from various back-end services to better connect tools and services.</li>
-                    <li>Writing well-designed, testable, and efficient code by using best programming practices.</li>
-                </ul>
-            </div>
+            <div class="hidden project-display" id="topnotch-box">
+                <div style="background-image:url('img/New Project(1).png')" class="left-div">
 
-            <div class="job-row">
-                <h3 class="center">Mabus Agency, Tupelo, MS | <i>Full-Stack Web Developer</i></h3>
+                </div>
+                <div class="right-div">
+                    <h2>Top Notch</h2>
+                    <h3>In-class Educational Resource Software</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="center-div" style="overflow:hidden;">
+            <div class="hidden">
+                <i class="far fa-moon background-icons hideOnMobile" id="moon-hover" onclick="darkMode()"></i>
+                <i class="fas fa-coffee background-icons hideOnMobile" id="coffee-hover"
+                    onclick="displayPaypalCoffee()"></i>
+                <i class="fas fa-compact-disc background-icons hideOnMobile" id="vinyl-hover"
+                    onclick="displayRecordPlayer()"></i>
+                <i class="fas fa-donate background-icons hideOnMobile" id="donate-hover"
+                    onclick="displayCodeOfVets()"></i>
             </div>
             <div class="center">
-                <small class="center">January 2018 - April 2018</small>
+                <h2 class="head-title">About Me</h2>
+            </div>
+            <div class="center-div center">
+                <p>
+                    Dedicated and efficient Full-Stack Web Developer with over 8 years experience brainstorming,
+                    building, and maintaining business-level software. I believe in websites and software should each
+                    have a unique brand that expresses its unique talent just like people have personalities. My passion
+                    is bringing ideas never thought possible to life with the use of code and a little ingenuity.
+                </p>
             </div>
             <div class="center">
-                <b>Tools Used:</b> WordPress, Github, PHP Storm, Java, C++, <span class="tag-tool html">HTML5</span>, <span class="tag-tool css">CSS3</span>, <span class="tag-tool php">PHP7</span>, Javascript
+                <h2 class="head-title">Professional Experience</h2>
             </div>
-            <ul>
-                <li>Work with other departments, stakeholders, and customers on software development improvements, and implementation issues</li>
-                <li>Participate in specification, design implementation, and support of the product as well as improved on existing features</li>
-            </ul>
+            <div id="jobs">
+                <div class="job-row">
+                    <h3 class="center">BPO USA LLC | <i>Senior Lead Full-Stack Developer</i></h3>
+                    <div class="center">
+                        <small class="center">May 2019 - December 2019 | Remote</small>
+                    </div>
+                    <div class="center">
+                        <b class="tools-used">Tools Used:</b> <button class="dark-tab-btn">VSCode</button> <button
+                            class="dark-tab-btn">Github</button> <button class="tab-btn tag-tool html">HTML5</button>
+                        <button class="tab-btn tag-tool php">PHP7</button> <button
+                            class="tab-btn tag-tool css">CSS</button> <button
+                            class="tab-btn tag-tool js">Javascript</button> <button
+                            class="tab-btn tag-tool js">jQuery</button> <button class="dark-tab-btn">PostMan</button>
+                    </div>
+                    <ul>
+                        <li>Work with an established team of developers and interact with product managers, marketing
+                            teams and designers</li>
+                        <li>Makes recommendations towards the development of new code or reuse of existing code</li>
+                        <li>Oversee a group of developers to make sure projects and tasks get completed in a timely
+                            manner</li>
+                    </ul>
+                </div>
+                <div class="job-row">
+                    <h3 class="center"><a href="https://www.mossyoakproperties.com/" class="underline"
+                            title="Visit the New Site" target="_blank">Mossy Oak Properties</a>, West Point, MS |
+                        <i>Junior Software Engineer</i></h3>
+                    <div class="center">
+                        <small class="center">August 2018 - May 2019</small>
+                    </div>
+                    <div class="center">
+                        <b class="tools-used">Tools Used:</b> <button class="dark-tab-btn">Visual Studio</button>
+                        <button class="tab-btn wp">WordPress</button> <button
+                            class="tab-btn tag-tool js">Javascript</button> <button class="dark-tab-btn">C#</button>
+                        <button class="dark-tab-btn">ASP.NET</button> <button
+                            class="tab-btn tag-tool html">HTML5</button> <button class="dark-tab-btn">REST APIs</button>
+                        <button class="tab-btn tag-tool mysql">MySQL</button>
+                    </div>
+                    <ul>
+                        <li>Integrated data from various back-end services to better connect tools and services.</li>
+                        <li>Writing well-designed, testable, and efficient code by using best programming practices.
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="job-row">
-                <h3 class="center">Mississippi State University, MS | <i>Front-end Web Developer</i></h3>
-                <div class="center">
-                    <small class="center">January 2015 - December 2017</small>
+                <div class="job-row">
+                    <h3 class="center">Mabus Agency, Tupelo, MS | <i>Full-Stack Web Developer</i></h3>
                 </div>
                 <div class="center">
-                    <b>Tools Used:</b> Java, HTML5, <span class="tag-tool css">CSS3</span>, Postgres SQL Server, Python, <span class="tag-tool php">PHP</span>, Sublime Text Editor, REST APIs, PHP Storm
-                </div>
-                <ul>
-                    <li>Implement responsible web design principles to ensure that our company website renders well across multiple devices.</li>
-                    <li>Monitor website performance, watch for traffic drops related to site usability problems and rectify the issues.</li>
-                </ul>
-            </div>
-            <div class="job-row">
-                <h3 class="center">Mississippi State University, MS | <i>Computer Technician</i></h3>
-                <div class="center">
-                    <small class="center">January 2014 - August 2015</small>
+                    <small class="center">January 2018 - April 2018</small>
                 </div>
                 <div class="center">
-                    <b>Tools Used:</b> CCleaner, Sophos Antivirus, Malwarebytes, Windows Installer
+                    <b class="tools-used">Tools Used:</b> <button class="tab-btn wp tag-tool">WordPress</button> <button
+                        class="dark-tab-btn">Github</button> <button class="dark-tab-btn">PHPStorm</button> <button
+                        class="dark-tab-btn">Java</button> <button class="tab-btn tag-tool cpp">C++</button> <button
+                        class="tab-btn tag-tool html">HTML5</button> <button class="tab-btn tag-tool css">CSS3</button>
+                    <button class="tab-btn tag-tool php">PHP7</button> <button
+                        class="tab-btn tag-tool js">Javascript</button>
                 </div>
                 <ul>
-                    <li>Setting up hardware and installing while also configuring software and drivers.</li>
-                    <li>Maintaining and repairing technological equipment (e.g. routers) or peripheral devices.</li>
+                    <li>Work with other departments, stakeholders, and customers on software development improvements,
+                        and implementation issues</li>
+                    <li>Participate in specification, design implementation, and support of the product as well as
+                        improved on existing features</li>
                 </ul>
-            </div>
 
-            <div class="job-row">
-                <h3 class="center">SociallyIn, Starkville, MS | <i>Full-Stack Web Developer</i></h3>
-                <div style="text-align:center">
-                    <small class="center">February 2013 - February 2014</small>
+                <div class="job-row">
+                    <h3 class="center">Mississippi State University, MS | <i>Front-end Web Developer</i></h3>
+                    <div class="center">
+                        <small class="center">January 2015 - December 2017</small>
+                    </div>
+                    <div class="center">
+                        <b class="tools-used">Tools Used:</b> <button class="dark-tab-btn">Java</button> <button
+                            class="tab-btn tag-tool html">HTML5</button> <button
+                            class="tab-btn tag-tool css">CSS3</button> <button class="dark-tab-btn">PostGres</button>
+                        <button class="dark-tab-btn">SQL Server</button> <button class="dark-tab-btn">Python</button>
+                        <button class="tab-btn tag-tool php">PHP</button> <button class="dark-tab-btn">Sublime Text
+                            Editor</button> <button class="dark-tab-btn">REST APIs</button> <button
+                            class="dark-tab-btn">PHPStorm</button>
+                    </div>
+                    <ul>
+                        <li>Implement responsible web design principles to ensure that our company website renders well
+                            across multiple devices.</li>
+                        <li>Monitor website performance, watch for traffic drops related to site usability problems and
+                            rectify the issues.</li>
+                    </ul>
                 </div>
-                <div class="center">
-                    <b>Tools Used:</b> <span class="tag-tool wp">WordPress</span>, Hubspot, <span class="tag-tool php">PHP5</span>, REST APIs, Sublime Text Editor
+                <div class="job-row">
+                    <h3 class="center">Mississippi State University, MS | <i>Computer Technician</i></h3>
+                    <div class="center">
+                        <small class="center">January 2014 - August 2015</small>
+                    </div>
+                    <div class="center">
+                        <b class="tools-used">Tools Used:</b> <button class="dark-tab-btn">CCleaner</button> <button
+                            class="dark-tab-btn">Sophos Antivirus</button> <button
+                            class="dark-tab-btn">Malwarebytes</button> <button class="dark-tab-btn">Windows
+                            Installer</button>
+                    </div>
+                    <ul>
+                        <li>Setting up hardware and installing while also configuring software and drivers.</li>
+                        <li>Maintaining and repairing technological equipment (e.g. routers) or peripheral devices.</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>Designed and built email templates for WordPress and Hubspot</li>
-                    <li>Conducted research on product themes and templates</li>
-                </ul>
-            </div>
 
-            <div class="job-row">
-                <h3 class="center">Wood Industries, Belmont, MS | <i>Full-Stack Web Developer</i></h3>
-                <div class="center">
-                    <small class="center">February 2012 - February 2013</small>
+                <div class="job-row">
+                    <h3 class="center">SociallyIn, Starkville, MS | <i>Full-Stack Web Developer</i></h3>
+                    <div style="text-align:center">
+                        <small class="center">February 2013 - February 2014</small>
+                    </div>
+                    <div class="center">
+                        <b class="tools-used">Tools Used:</b> <button class="tab-btn tag-tool wp ">WordPress</button>, <button
+                            class="dark-tab-btn">Hubspot</button> <button class="tab-btn tag-tool php">PHP5</button>
+                        <button class="dark-tab-btn">REST APIs</button> <button class="dark-tab-btn">Sublime Text
+                            Editor</button>
+                    </div>
+                    <ul>
+                        <li>Designed and built email templates for WordPress and Hubspot</li>
+                        <li>Conducted research on product themes and templates</li>
+                    </ul>
                 </div>
-                <div class="center">
-                    <b>Tools Used:</b> <span class="tag-tool wp">WordPress</span>, <span class="tag-tool php">PHP5</span>, <span class="tag-tool html">HTML5</span>, <span class="tag-tool css">CSS3</span>, Joomla, MySQL, C++
+
+                <div class="job-row">
+                    <h3 class="center">Wood Industries, Belmont, MS | <i>Full-Stack Web Developer</i></h3>
+                    <div class="center">
+                        <small class="center">February 2012 - February 2013</small>
+                    </div>
+                    <div class="center">
+                        <b class="tools-used">Tools Used:</b> <button class="tab-btn tag-tool wp">WordPress</button> <button
+                            class="tab-btn tag-tool php">PHP5</button> <button
+                            class="tab-btn tag-tool html">HTML5</button> <button
+                            class="tab-btn tag-tool css">CSS3</button> <button
+                            class="tab-btn tag-tool mysql">MySQL</button> <button
+                            class="tab-btn tag-tool cpp">C++</button>
+                    </div>
+                    <ul>
+                        <li>Develop and insert data into databases that support web applications and websites.</li>
+                        <li>Develop and document style guidelines for website content.</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>Develop and insert data into databases that support web applications and websites.</li>
-                    <li>Develop and document style guidelines for website content.</li>
-                </ul>
             </div>
-        </div>
-        <div class="center">
-            <h2 class="head-title">Education</h2>
-        </div>
-        <div id="education">
-            <div class="education-row">
-                <h3>Mississippi State Unversity</h3>
-                <ul>
-                    <li>Planned Graduation: May 2020</li>
-                    <li>Major: Software Engineering</li>
-                </ul>
+            <div class="center">
+                <h2 class="head-title">Education</h2>
             </div>
-            <div class="education-row">
-                <h3>Itawamba Community College</h3>
-                <ul>
-                    <li>Received: Associate of Arts</li>
-                    <li>Graduation: 2014</li>
-                    <li>Major: Computer Engineering</li>
-                </ul>
+            <div id="education">
+                <div class="education-row">
+                    <h3>Mississippi State Unversity</h3>
+                    <ul>
+                        <li>Planned Graduation: May 2020</li>
+                        <li>Major: Software Engineering</li>
+                    </ul>
+                </div>
+                <div class="education-row">
+                    <h3>Itawamba Community College</h3>
+                    <ul>
+                        <li>Received: Associate of Arts</li>
+                        <li>Graduation: 2014</li>
+                        <li>Major: Computer Engineering</li>
+                    </ul>
+                </div>
+                <div class="education-row">
+                    <h3>Hatley Hight School</h3>
+                    <ul>
+                        <li>Graduation: 2012</li>
+                        <li>Received High School Diploma</li>
+                    </ul>
+                </div>
             </div>
-            <div class="education-row">
-                <h3>Hatley Hight School</h3>
-                <ul>
-                    <li>Graduation: 2012</li>
-                    <li>Received High School Diploma</li>
-                </ul>
+            <div class="center">
+                <h2 class="head-title" id="personal-blog">Personal Blog</h2>
             </div>
-        </div>
-        <div class="center">
-            <h2 class="head-title" id="personal-blog">Personal Blog</h2>
-        </div>
-        <div id="blog-listings" class="center">
-            <div class="blog-article center">
-                    <a href="http://blog.thethomasgeorge.com/the-one-thing-people-need-to-save-mississippi/" target="_blank" title="The One Thing People Need to Save Mississippi">             
-                        <div class="blog-img" style="background-image: url('https://i1.wp.com/blog.thethomasgeorge.com/wp-content/uploads/2018/11/aidan-formigoni-547537-unsplas.jpg?w=1017')">              
+            <div id="blog-listings" class="center">
+                <div class="blog-article center">
+                    <a href="http://blog.thethomasgeorge.com/the-one-thing-people-need-to-save-mississippi/"
+                        target="_blank" title="The One Thing People Need to Save Mississippi">
+                        <div class="blog-img"
+                            style="background-image: url('https://i1.wp.com/blog.thethomasgeorge.com/wp-content/uploads/2018/11/aidan-formigoni-547537-unsplas.jpg?w=1017')">
                             <div class="o3">
                                 <h3 class="blog-title light-title">The One Thing People Need to Save Mississippi</h3>
-                            </div>  
+                            </div>
                         </div>
                     </a>
-            </div><div class="blog-article center">
-                    <a href="http://blog.thethomasgeorge.com/my-favorite-youtube-creators/" target="_blank" title="My Favorite Youtube Creators">
-                        <div class="blog-img" style="background-image: url('https://i2.wp.com/blog.thethomasgeorge.com/wp-content/uploads/2018/11/pexels-photo.jpg?w=1280');">
+                </div>
+                <div class="blog-article center">
+                    <a href="http://blog.thethomasgeorge.com/my-favorite-youtube-creators/" target="_blank"
+                        title="My Favorite Youtube Creators">
+                        <div class="blog-img"
+                            style="background-image: url('https://i2.wp.com/blog.thethomasgeorge.com/wp-content/uploads/2018/11/pexels-photo.jpg?w=1280');">
                             <div class="o3">
                                 <h3 class="blog-title light-title">My Favorite Youtube Creators</h3>
                             </div>
                         </div>
                     </a>
-                </div><div class="blog-article center">
-                <a href="http://blog.thethomasgeorge.com/my-bucket-list-and-how-its-going/" target="_blank" title="My Bucket List (and how it’s going)">
-                    <div class="blog-img" style="background-image: url('https://i2.wp.com/blog.thethomasgeorge.com/wp-content/uploads/2018/10/pexels-photo-58457.jpeg?w=1280')">
-                        <div class="o3">
-                            <h3 class="blog-title light-title">My Bucket List (and how it’s going)</h3>
+                </div>
+                <div class="blog-article center">
+                    <a href="http://blog.thethomasgeorge.com/my-bucket-list-and-how-its-going/" target="_blank"
+                        title="My Bucket List (and how it’s going)">
+                        <div class="blog-img"
+                            style="background-image: url('https://i2.wp.com/blog.thethomasgeorge.com/wp-content/uploads/2018/10/pexels-photo-58457.jpeg?w=1280')">
+                            <div class="o3">
+                                <h3 class="blog-title light-title">My Bucket List (and how it’s going)</h3>
+                            </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="center">
-            <h2 class="head-title" id="previous-projects">Previous Projects</h2>
-        </div>
-        <script>
-        </script>
-        <div id="optionLanguage" class="center">
-            <button id="all-btn" class="tab-btn current-btn" onclick="displayProjects('all')">All Projects</button>
-            <button id="html5-btn" class="tab-btn" onclick="displayProjects('html5')">HTML5</button>
-            <button id="react-btn" class="tab-btn" onclick="displayProjects('react')">ReactJS</button>
-            <button id="backbone-btn" class="tab-btn" onclick="displayProjects('backbone')">BackboneJS</button>
-            <button id="css3-btn" class="tab-btn" onclick="displayProjects('css3')">CSS3</button>
-            <button id="php-btn" class="tab-btn" onclick="displayProjects('php')">PHP</button>
-            <button id="jquery-btn" class="tab-btn" onclick="displayProjects('jquery')">jQuery</button>
-            <button id="cpp-btn" class="tab-btn" onclick="displayProjects('cpp')">C++</button>
-            <button id="mysql-btn" class="tab-btn" onclick="displayProjects('mysql')">MySQL</button>
-            <button id="firebase-btn" class="tab-btn" onclick="displayProjects('firebase')">Google Firebase</button>
-        </div>
-        <div id="work"><!--
+            <div class="center">
+                <h2 class="head-title" id="previous-projects">Previous Projects</h2>
+            </div>
+            <div id="optionLanguage" class="center">
+                <button id="all-btn" class="tab-btn current-btn" onclick="displayProjects('all')">All Projects</button>
+                <button id="html5-btn" class="tab-btn" onclick="displayProjects('html5')">HTML5</button>
+                <button id="react-btn" class="tab-btn" onclick="displayProjects('react')">ReactJS</button>
+                <button id="backbone-btn" class="tab-btn" onclick="displayProjects('backbone')">BackboneJS</button>
+                <button id="css3-btn" class="tab-btn" onclick="displayProjects('css3')">CSS3</button>
+                <button id="php-btn" class="tab-btn" onclick="displayProjects('php')">PHP</button>
+                <button id="jquery-btn" class="tab-btn" onclick="displayProjects('jquery')">jQuery</button>
+                <button id="cpp-btn" class="tab-btn" onclick="displayProjects('cpp')">C++</button>
+                <button id="mysql-btn" class="tab-btn" onclick="displayProjects('mysql')">MySQL</button>
+                <button id="firebase-btn" class="tab-btn" onclick="displayProjects('firebase')">Google Firebase</button>
+            </div>
+            <div id="work">
+                <!--
 			<a href="#cruise-div" title="More Information">
 				<div class="project-box" id="cruise" style="background-image: url('img/cruise2.png')">
 				</div>
             </a>-->
-            <a href="#scout-div" title="More information" class="html5 php css3 mysql">
-                <div class="project-box" id="scout" style="background-image: url('img/scoutturf.png')"></div>
-            </a>
-            <a href="#ergo-div" title="More Information" class="html5 css3 firebase react">
-                <div class="project-box" id="ergo" style="background-image: url('img/ergo.png')">
-                    <i class="fab fa-github-alt onGitHub light" style="position: absolute;bottom: 0;right: 0;font-size: 35px;box-sizing: border-box;margin: 6px 9px;/*! float: right; */"></i>
-                </div>
-            </a><a href="#glory-div" title="More Information" class="html5 css3 jquery">
-                <div class="project-box" id="glory" style="background-image: url('img/New Project (1).png')">
-                </div>
-            </a><a href="#moolah-div" title="More Information" class="html5 php css3 mysql">
-                <div class="project-box" id="moolah" style="background-image: url('img/moolah.png')">
-                </div>
-            </a>
-            <a href="#topnotch-div" title="More Information" class="html5 php css3 jquery mysql">
-                <div class="project-box" id="topnotch" style="background-image: url('img/New Project(1).png')">
+                <a href="#scout-div" title="More information" class="html5 php css3 mysql">
+                    <div class="project-box" id="scout" style="background-image: url('img/scoutturf.png')"></div>
+                </a>
+                <a href="#ergo-div" title="More Information" class="html5 css3 firebase react">
+                    <div class="project-box" id="ergo" style="background-image: url('img/ergo.png')">
+                        <i class="fab fa-github-alt onGitHub light"
+                            style="position: absolute;bottom: 0;right: 0;font-size: 35px;box-sizing: border-box;margin: 6px 9px;/*! float: right; */"></i>
+                    </div>
+                </a><a href="#glory-div" title="More Information" class="html5 css3 jquery">
+                    <div class="project-box" id="glory" style="background-image: url('img/New Project (1).png')">
+                    </div>
+                </a><a href="#moolah-div" title="More Information" class="html5 php css3 mysql">
+                    <div class="project-box" id="moolah" style="background-image: url('img/moolah.png')">
+                    </div>
+                </a>
+                <a href="#topnotch-div" title="More Information" class="html5 php css3 jquery mysql">
+                    <div class="project-box" id="topnotch" style="background-image: url('img/New Project(1).png')">
 
-                </div>
-            </a>
-            <a href="#ttl-div" title="More Information" class="html5 php css3 mysql">
-                <div class="project-box" id="ttl" style="background-image: url('img/17854922_1251982241521936_8519234958610297504_o.jpg');">
+                    </div>
+                </a>
+                <a href="#ttl-div" title="More Information" class="html5 php css3 mysql">
+                    <div class="project-box" id="ttl"
+                        style="background-image: url('img/17854922_1251982241521936_8519234958610297504_o.jpg');">
 
-                </div>
-            </a>
-            <a href="#reach-div" title="More Information" class="html5 php css3 jquery mysql">
-                <div class="project-box" id="reach" style="background-image: url('img/reach.png')">
+                    </div>
+                </a>
+                <a href="#reach-div" title="More Information" class="html5 php css3 jquery mysql">
+                    <div class="project-box" id="reach" style="background-image: url('img/reach.png')">
 
-                </div>
-            </a>
-            <a href="#merge-div" title="More Information" class="html5 php css3 jquery mysql">
-                <div class="project-box" id="merge" style="background-image: url('img/New Project (2).png')">
+                    </div>
+                </a>
+                <a href="#merge-div" title="More Information" class="html5 php css3 jquery mysql">
+                    <div class="project-box" id="merge" style="background-image: url('img/New Project (2).png')">
 
-                </div>
-            </a>
-            <a href="#rotg-div" title="More Information" class="html5 php css3 jquery mysql">
-                <div class="project-box" id="rotg" style="background-image: url('img/rotg.jpg')">
+                    </div>
+                </a>
+                <a href="#rotg-div" title="More Information" class="html5 php css3 jquery mysql">
+                    <div class="project-box" id="rotg" style="background-image: url('img/rotg.jpg')">
 
-                </div>
-            </a>
-			<a href="#mla-div" title="More Information" class="wordpress html5 css3 php jquery">
-				<div class="project-box" id="mla" style="background-image: url('img/New Project (3).png')">
+                    </div>
+                </a>
+                <a href="#mla-div" title="More Information" class="wordpress html5 css3 php jquery">
+                    <div class="project-box" id="mla" style="background-image: url('img/New Project (3).png')">
 
-				</div>
-			</a><!--
+                    </div>
+                </a>
+                <!--
 			<a href="#kreadiv-div" title="More Information">
 				<div class="project-box" id="kreadiv" style="background-image: url('img/New Project (5).png')">
 
 				</div>
 			</a>-->
-            <a href="#bibliotaf-div" title="More Information" class="html5 jquery firebase">
-                <div class="project-box" id="bibliotaf" style="background-image: url('img/New Project (4).png')">
+                <a href="#bibliotaf-div" title="More Information" class="html5 jquery firebase">
+                    <div class="project-box" id="bibliotaf" style="background-image: url('img/New Project (4).png')">
 
-                </div>
-            </a>
-            <a href="#validate-div" title="More Information" class="html5 css3 react firebase">
-                <div class="project-box" id="validate" style="background-image: url('img/New Project (7).png')">
+                    </div>
+                </a>
+                <a href="#validate-div" title="More Information" class="html5 css3 react firebase">
+                    <div class="project-box" id="validate" style="background-image: url('img/New Project (7).png')">
 
-                    <i class="fab fa-github-alt onGitHub light" style="position: absolute;bottom: 0;right: 0;font-size: 35px;box-sizing: border-box;margin: 6px 9px;/*! float: right; */"></i>
-                </div>
-            </a>
-            <a href="#urge-div" title="More Information" class="html5 css3 react firebase">
-                <div class="project-box" id="urge" style="background-image: url('img/New Project (6).png')">
+                        <i class="fab fa-github-alt onGitHub light"
+                            style="position: absolute;bottom: 0;right: 0;font-size: 35px;box-sizing: border-box;margin: 6px 9px;/*! float: right; */"></i>
+                    </div>
+                </a>
+                <a href="#urge-div" title="More Information" class="html5 css3 react firebase">
+                    <div class="project-box" id="urge" style="background-image: url('img/New Project (6).png')">
 
-                </div>
-            </a>
-            <a href="#heap-div" title="More Information" class="html5 css3 php mysql">
-                <div class="project-box" id="heap" style="background-image: url('img/heap2.png')">
-    
-                </div>
-            </a>
-            <!--
+                    </div>
+                </a>
+                <a href="#heap-div" title="More Information" class="html5 css3 php mysql">
+                    <div class="project-box" id="heap" style="background-image: url('img/heap2.png')">
+
+                    </div>
+                </a>
+                <!--
 <div class="project-box" id="wishful" style="background-image: url('New Project (8).png')">
 
 </div>-->
-        </div>
-    </div>
-    <div id="hidden-projects">
-        <div id="urge-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/New Project (6).png')" class="logo-info">
-
-                </div>
-                <div class="logo-text">
-                    <h3>Automated Marketing Software</h3>
-                    <h5 class="programming-languages"><span class="tag-tool html">HTML5</span>, <span class="tag-tool css">CSS3</span>, ReactJS, Google Firebase</h5>
-                    <p>This is a software I built to compete with Good Adsense.  It enables website owners to advertise their services easily and effectively through their website and other websites while keeping a detailed log of the actions and location of the visitors.</p>
-                </div>
-
             </div>
         </div>
-        <div id="validate-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/New Project (7).png')" class="logo-info">
+        <div id="hidden-projects">
+            <div id="urge-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/New Project (6).png')" class="logo-info">
 
-                </div>
-                <div class="logo-text">
-                    <h3>Web Analytics Software</h3>
-                    <h5 class="programming-languages">HTML5, CSS3, ReactJS, Google Firebase</h5>
-                    <p>The purpose of this project came to me when I was having trouble with Google Analytics and getting it to show me relevant and detailed steps that I can take to improve my traffic based on what my traffic was currently made up of.</p>
-                    <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
-                </div>
+                    </div>
+                    <div class="logo-text">
+                        <h3>Automated Marketing Software</h3>
+                        <h5 class="programming-languages"><span class="tag-tool html">HTML5</span>, <span
+                                class="tag-tool css">CSS3</span>, ReactJS, Google Firebase</h5>
+                        <p>This is a software I built to compete with Good Adsense. It enables website owners to
+                            advertise their services easily and effectively through their website and other websites
+                            while keeping a detailed log of the actions and location of the visitors.</p>
+                    </div>
 
-            </div>
-        </div>
-        <div id="bibliotaf-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/New Project (4).png')" class="logo-info">
-                </div>
-                <div class="logo-text">
-                    <h3>Book Lending Website</h3>
-                    <h5 class="programming-languages">HTML5, CSS3, PHP, MySQL, jQuery</h5>
-                    <p>I thought of this idea one day when I was reading, and thought about how it would be neat to share your books with others once you have read them for a small fee (+shipping).</p>
-                    <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
-                </div>
-
-            </div>
-        </div>
-        <div id="kreadiv-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/New Project (5).png')" class="logo-info">
-                </div>
-                <div class="logo-text">
-                    <h3>Website Designs & Themes</h3>
-                    <h5 class="programming-languages"></h5>
-                    <p></p>
-                </div>
-
-            </div>
-        </div>
-        <div id="mla-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/New Project (3).png')" class="logo-info">
-                </div>
-                <div class="logo-text">
-                    <h3>Online Tactical Store</h3>
-                    <p></p>
                 </div>
             </div>
-        </div>
-        <div id="rotg-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/rotg.jpg')" class="logo-info">
-                </div>
-                <div class="logo-text">
-                    <h3>Remote Job Listing Board</h3>
-                    <h5 class="programming-languages">HTML5, CSS3, jQuery, PHP7</h5>
-                    <p>Remote On The Go gives people the ability to find them a dream job that enables work while traveling the world.</p>
-                    <a href="https://www.remoteonthego.com/?portfolio" target="_blank" id="rotg-button" title="Visit Remote On The Go" class="visit-a">Visit Site</a>
+            <div id="validate-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/New Project (7).png')" class="logo-info">
+
+                    </div>
+                    <div class="logo-text">
+                        <h3>Web Analytics Software</h3>
+                        <h5 class="programming-languages">HTML5, CSS3, ReactJS, Google Firebase</h5>
+                        <p>The purpose of this project came to me when I was having trouble with Google Analytics and
+                            getting it to show me relevant and detailed steps that I can take to improve my traffic
+                            based on what my traffic was currently made up of.</p>
+                        <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div id="merge-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/New Project (2).png')" class="logo-info">
-                </div>
-                <div class="logo-text">
-                    <h3>Social Media Automation Platform</h3>
-                    <h5 class="programming-languages">HTML5, CSS3, jQuery, PHP7</h5>
-                    <p>This was my attempt at making a mox between Buffer and Hootsuite.  </p>
-                    <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
+            <div id="bibliotaf-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/New Project (4).png')" class="logo-info">
+                    </div>
+                    <div class="logo-text">
+                        <h3>Book Lending Website</h3>
+                        <h5 class="programming-languages">HTML5, CSS3, PHP, MySQL, jQuery</h5>
+                        <p>I thought of this idea one day when I was reading, and thought about how it would be neat to
+                            share your books with others once you have read them for a small fee (+shipping).</p>
+                        <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div id="reach-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/reachtransparent.png')" class="logo-info">
+            <div id="kreadiv-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/New Project (5).png')" class="logo-info">
+                    </div>
+                    <div class="logo-text">
+                        <h3>Website Designs & Themes</h3>
+                        <h5 class="programming-languages"></h5>
+                        <p></p>
+                    </div>
 
-                </div>
-                <div class="logo-text">
-                    <h3>Text-based Marketing Platform</h3>
-                    <p>I was contracted by a company in Minnesota to build this online software.  The goal was to create a text-based marketing application that revolved around subscription-based pricing plan.</p>
-                    <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
                 </div>
             </div>
-        </div>
-        <div id="ttl-div" class="hidden project-info">
-            <div class="center-div">
-                <div  class="logo-info">
-                    <iframe width="400" height="225" src="https://www.youtube.com/embed/GJyLGIAeVKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="logo-text">
-                    <h3>Teacher Lesson Plan Marketplace</h3>
-                    <p>The thought to have a Lesson Plan marketplace was seeing my friends that were teachers build these amazing projects and activties for their kids while having to throw them all away or put them in storage until next year.  All those activites.  Just lying in the garbage or storage.  So I thought of a way to put them all to good use.  Create a database of goods for the teachers to buy and sell. </p>
-                    <a href="https://www.theteacherslounge.co/?portfolio" target="_blank" class="visit-a" title="Visit The Teachers' Lounge">Visit Site</a>
-                </div>
-
-            </div>
-        </div>
-        <div id="topnotch-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/New%20Project(1).png')" class="logo-info">
-
-                </div>
-                <div class="logo-text">
-                    <h3>University-based Education Software</h3>
-                    <p>They say <i><a id="struggle-id" href="https://www.youtube.com/watch?v=r56wALXri0U" target="_blank">Innovation is born from the struggle</a></i>, and well... I built this one specifically because the current education platform my University was using was sub-par and I wanted to design my own platform for the Student and the Teacher to come together in one place to grow, learn, and understand each topic.</p>
-                    <a href="http://www.thethomasgeorge.com/topnotch" target="_blank" id="topnotch-button" title="Visit Top Notch University" class="visit-a">Visit Site</a>
-
-                </div>
-
-            </div>
-        </div>
-        <div id="cruise-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/cruise2.png')" class="logo-info">
-
-                </div>
-                <div class="logo-text">
-                    <h3>Car Dealership Landing Page Software</h3>
-                    <p></p>
-                </div>
-
-            </div>
-        </div>
-        <div id="moolah-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/moolah.png')" class="logo-info">
-
-                </div>
-                <div class="logo-text">
-                    <h3>Shopify/WordPress Rewards App</h3>
-                    <p></p>
-                    <a href="#" title="Link Coming Soon.." class="visit-a">Link Coming Soon..</a>
-                </div>
-
-            </div>
-        </div>
-        <div id="glory-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/New%20Project%20(1).png')" class="logo-info">
-
-                </div>
-                <div class="logo-text">
-                    <h3>Church Event Organizer</h3>
-                    <p></p>
-                    <a href="http://www.goglory.co/?portfolio" target="_blank" class="visit-a" title="Visit Glory">Visit Site</a>
-               
-                </div>
-
-            </div>
-        </div>
-        <div id="scout-div" class="hidden project-info">
-            <div class="center-div">
-                <div class="logo-info">
-                    <iframe width="400" height="225" src="https://www.youtube.com/embed/zNbR9DJzqXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="video-icon">
-                        <a href="https://www.facebook.com/ScoutTurf" target="_blank" title="View Facebook Page!"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/company/scout-turf" target="_blank" title="Visit the LinkedIn Page!"><i class="fab fa-linkedin-in"></i></a>
+            <div id="mla-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/New Project (3).png')" class="logo-info">
+                    </div>
+                    <div class="logo-text">
+                        <h3>Online Tactical Store</h3>
+                        <p></p>
                     </div>
                 </div>
-                <div class="logo-text">
-                    <h3>Scout Turf | Pesticide and Field Records Management</h3>
-                    <p>Scout Turf is the one-stop-shop for keeping all of your environmental records for Pesticide Applications.</p>
-                    <a href="https://www.scoutturf.com/?porfolio" target="_blank" title="Visit Scout Turf" class="visit-a">Visit Site</a>
+            </div>
+            <div id="rotg-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/rotg.jpg')" class="logo-info">
+                    </div>
+                    <div class="logo-text">
+                        <h3>Remote Job Listing Board</h3>
+                        <h5 class="programming-languages">HTML5, CSS3, jQuery, PHP7</h5>
+                        <p>Remote On The Go gives people the ability to find them a dream job that enables work while
+                            traveling the world.</p>
+                        <a href="https://www.remoteonthego.com/?portfolio" target="_blank" id="rotg-button"
+                            title="Visit Remote On The Go" class="visit-a">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+            <div id="merge-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/New Project (2).png')" class="logo-info">
+                    </div>
+                    <div class="logo-text">
+                        <h3>Social Media Automation Platform</h3>
+                        <h5 class="programming-languages">HTML5, CSS3, jQuery, PHP7</h5>
+                        <p>This was my attempt at making a mox between Buffer and Hootsuite. </p>
+                        <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
+                    </div>
+                </div>
+            </div>
+            <div id="reach-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/reachtransparent.png')" class="logo-info">
+
+                    </div>
+                    <div class="logo-text">
+                        <h3>Text-based Marketing Platform</h3>
+                        <p>I was contracted by a company in Minnesota to build this online software. The goal was to
+                            create a text-based marketing application that revolved around subscription-based pricing
+                            plan.</p>
+                        <a href="#" title="Link Coming Soon" class="visit-a">Link Coming Soon..</a>
+                    </div>
+                </div>
+            </div>
+            <div id="ttl-div" class="hidden project-info">
+                <div class="center-div">
+                    <div class="logo-info">
+                        <iframe width="400" height="225" src="" data-src="https://www.youtube.com/embed/GJyLGIAeVKU" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="logo-text">
+                        <h3>Teacher Lesson Plan Marketplace</h3>
+                        <p>The thought to have a Lesson Plan marketplace was seeing my friends that were teachers build
+                            these amazing projects and activties for their kids while having to throw them all away or
+                            put them in storage until next year. All those activites. Just lying in the garbage or
+                            storage. So I thought of a way to put them all to good use. Create a database of goods for
+                            the teachers to buy and sell. </p>
+                        <a href="https://www.theteacherslounge.co/?portfolio" target="_blank" class="visit-a"
+                            title="Visit The Teachers' Lounge">Visit Site</a>
+                    </div>
+
+                </div>
+            </div>
+            <div id="topnotch-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/New%20Project(1).png')" class="logo-info">
+
+                    </div>
+                    <div class="logo-text">
+                        <h3>University-based Education Software</h3>
+                        <p>They say <i><a id="struggle-id" href="https://www.youtube.com/watch?v=r56wALXri0U"
+                                    target="_blank">Innovation is born from the struggle</a></i>, and well... I built
+                            this one specifically because the current education platform my University was using was
+                            sub-par and I wanted to design my own platform for the Student and the Teacher to come
+                            together in one place to grow, learn, and understand each topic.</p>
+                        <a href="http://www.thethomasgeorge.com/topnotch" target="_blank" id="topnotch-button"
+                            title="Visit Top Notch University" class="visit-a">Visit Site</a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="cruise-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/cruise2.png')" class="logo-info">
+
+                    </div>
+                    <div class="logo-text">
+                        <h3>Car Dealership Landing Page Software</h3>
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="moolah-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/moolah.png')" class="logo-info">
+
+                    </div>
+                    <div class="logo-text">
+                        <h3>Shopify/WordPress Rewards App</h3>
+                        <p></p>
+                        <a href="#" title="Link Coming Soon.." class="visit-a">Link Coming Soon..</a>
+                    </div>
+
+                </div>
+            </div>
+            <div id="glory-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/New%20Project%20(1).png')" class="logo-info">
+
+                    </div>
+                    <div class="logo-text">
+                        <h3>Church Event Organizer</h3>
+                        <p></p>
+                        <a href="http://www.goglory.co/?portfolio" target="_blank" class="visit-a"
+                            title="Visit Glory">Visit Site</a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="scout-div" class="hidden project-info">
+                <div class="center-div">
+                    <div class="logo-info">
+                        <iframe width="400" height="225" src="" data-src="https://www.youtube.com/embed/zNbR9DJzqXw" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="video-icon">
+                            <a href="https://www.facebook.com/ScoutTurf" target="_blank" title="View Facebook Page!"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/scout-turf" target="_blank"
+                                title="Visit the LinkedIn Page!"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="logo-text">
+                        <h3>Scout Turf | Pesticide and Field Records Management</h3>
+                        <p>Scout Turf is the one-stop-shop for keeping all of your environmental records for Pesticide
+                            Applications.</p>
+                        <a href="https://www.scoutturf.com/?porfolio" target="_blank" title="Visit Scout Turf"
+                            class="visit-a">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+            <div id="ergo-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image:url('img/ergo.png')" class="logo-info">
+
+                    </div>
+                    <div class="logo-text">
+                        <h3>Google Keep Re-design</h3>
+                        <h5 class="programming-languages"><span class="tag-tool html">HTML5</span>, <span
+                                class="tag-tool css">CSS3</span>, <span class="tag-tool react">ReactJS</span>, Google
+                            Firebase</h5>
+                    </div>
+                </div>
+            </div>
+            <div id="heap-div" class="hidden project-info">
+                <div class="center-div">
+                    <div style="background-image: url('img/heap2.png')" class="logo-info">
+
+                    </div>
+                    <div class="logo-text">
+                        <h3>Heap Invoice Software</h3>
+                        <p></p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="ergo-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image:url('img/ergo.png')" class="logo-info">
+        <div id="social">
+            <div class="center center-div">
+                <!-- Facebook -->
+                <a href="cv.docx" target="_blank" title="Microsft Word Resume">
+                    <i class="fas fa-file-word"></i>
+                </a>
+                <a href="cv.pdf" target="_blank" title="PDF Resume">
+                    <i class="far fa-file-pdf"></i>
+                </a>
+                <a href="https://www.facebook.com/thethomasgeorge" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://m.me/thethomasgeorge" target="_blank" title="Facebook Messenger">
+                    <i class="fab fa-facebook-messenger"></i>
+                </a>
+                <a href="https://www.twitter.com/thetwgeorge" target="_blank" title="Twitter">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="https://codepen.io/thethomaswgeorge/" target="_blank" title="CodePen">
+                    <i class="fab fa-codepen"></i>
+                </a>
+                <a href="https://github.com/thethomaswgeorge" target="_blank" title="Github">
+                    <i class="fab fa-github-square"></i>
+                </a>
+                <a href="https://www.instagram.com/thethomasgeorge/" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/twgeorge1994/" target="_blank" title="Linkedin">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCneRLXtAzwXOc_1mx-0iQlg" target="_blank" title="Youtube">
+                    <i class="fab fa-youtube-square"></i>
+                </a>
+                <a href="http://t.me/thethomasgeorge" target="_blank" title="Telegram">
+                    <i class="fab fa-telegram"></i>
+                </a>
 
-                </div>
-                <div class="logo-text">
-                    <h3>Google Keep Re-design</h3>
-                    <h5 class="programming-languages"><span class="tag-tool html">HTML5</span>, <span class="tag-tool css">CSS3</span>, <span class="tag-tool react">ReactJS</span>, Google Firebase</h5>
-                </div>
             </div>
         </div>
-        <div id="heap-div" class="hidden project-info">
-            <div class="center-div">
-                <div style="background-image: url('img/heap2.png')" class="logo-info">
-
-                </div>
-                <div class="logo-text">
-                    <h3>Heap Invoice Software</h3>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="social">
-        <div class="center center-div">
-            <!-- Facebook -->
-            <a href="cv.docx" target="_blank" title="Microsft Word Resume">
-                <i class="fas fa-file-word"></i>
-            </a>
-            <a href="cv.pdf" target="_blank" title="PDF Resume">
-                <i class="far fa-file-pdf"></i>
-            </a>
-            <a href="https://www.facebook.com/thethomasgeorge" target="_blank" title="Facebook">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="https://m.me/thethomasgeorge" target="_blank" title="Facebook Messenger">
-                <i class="fab fa-facebook-messenger"></i>
-            </a>
-            <a href="https://www.twitter.com/thetwgeorge" target="_blank" title="Twitter">
-                <i class="fab fa-twitter-square"></i>
-            </a>
-            <a href="https://codepen.io/thethomaswgeorge/" target="_blank" title="CodePen">
-                <i class="fab fa-codepen"></i>
-            </a>
-            <a href="https://github.com/thethomaswgeorge" target="_blank" title="Github">
-                <i class="fab fa-github-square"></i>
-            </a>
-            <a href="https://www.instagram.com/thethomasgeorge/" target="_blank" title="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/twgeorge1994/" target="_blank" title="Linkedin">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCneRLXtAzwXOc_1mx-0iQlg" target="_blank" title="Youtube">
-                <i class="fab fa-youtube-square"></i>
-            </a>
-            <a href="http://t.me/thethomasgeorge" target="_blank" title="Telegram">
-                <i class="fab fa-telegram"></i>
-            </a>
-
-        </div>
-    </div><!--
+        <!--
 	<div id="contact">
 		<div class="center-div">
 			<form action="" method="post">
@@ -656,20 +758,29 @@
 			</form>
 		</div>
 	</div>-->
-    <div id="footer">
-        <div class="center-div center">
-            <small>Copyright &copy; 2019 | Created and Owned by Thomas George | Fonts by <a href="fonts.google.com" target="_blank" title="Google Fonts">Google Fonts</a> | Icons by <a href="https://fontawesome.com/" target="_blank" title="FontAwesome">FontAwesome</a> | Stock Image by <a href="https://www.pexels.com/photo/close-up-of-computer-keyboard-248515/" target="_blank" title="Pexels">Pexels</a> <i onclick="darkMode()" class="fas fa-moon moon-darkmode"></i></small>
+        <div id="footer">
+            <div class="center-div center">
+                <small>Copyright &copy; 2019 | Created and Owned by Thomas George | Fonts by <a href="fonts.google.com"
+                        target="_blank" title="Google Fonts">Google Fonts</a> | Icons by <a
+                        href="https://fontawesome.com/" target="_blank" title="FontAwesome">FontAwesome</a> | Stock
+                    Image by <a href="https://www.pexels.com/photo/close-up-of-computer-keyboard-248515/"
+                        target="_blank" title="Pexels">Pexels</a> <i onclick="darkMode()"
+                        class="fas fa-moon moon-darkmode"></i></small>
+            </div>
         </div>
     </div>
-</div>
 </body>
 <footer>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.min.js"></script>
     <script>
-        $("#optionLanguage li").on("click",function() {
-            console.log(this.id);
-        })
+        function init() {
+var vidDefer = document.getElementsByTagName('iframe');
+for (var i=0; i<vidDefer.length; i++) {
+if(vidDefer[i].getAttribute('data-src')) {
+vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
     </script>
 </footer>
 </html>

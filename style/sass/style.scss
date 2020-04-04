@@ -102,6 +102,19 @@ html,body {
         cursor: pointer;
         outline: none;
     }
+
+    button.dark-tab-btn {
+        background: #000;
+        font-weight: bold;
+        padding: 5px 8px;
+        display: inline-block;
+        border: 3px solid #000;
+        color: #fff;
+        margin: 0 5px 20px 5px;
+        letter-spacing: 0;
+        border-radius: 5px;
+        outline: none;
+    }
     
     .form-input {
         border: 3px solid #ccc;
