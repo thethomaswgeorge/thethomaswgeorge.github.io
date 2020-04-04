@@ -31,6 +31,9 @@ $(".tag-tool").on("click", function () {
     if ($(this).hasClass("js")) {
         displayProjects('jquery');
     }
+    if ($(this).hasClass("wp")) {
+        displayProjects('wordpress');
+    }
 });
 
 function sayHello() {
