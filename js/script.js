@@ -84,6 +84,9 @@ $(".project-box").on("click", function () {
         case "glory":
             changeTheme('#fff', '#3ac1dd');
             break;
+        case "cFc":
+            changeTheme('#f1c40f','#fff');
+            break;
         case "moolah":
             changeTheme('#fff', '#00b16a');
             break;
