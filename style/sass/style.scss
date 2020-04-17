@@ -89,7 +89,29 @@ html,body {
     #optionLanguage {
         padding: 30px 0;
     }
+
+    .job-left {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        box-sizing:border-box;
+
+        .job-img {
+            width: 200px;
+            height: 200px;
+            background-size:cover;
+        }
+    }
     
+    .job-right {
+        width: 100%;
+        max-width: calc(100% - 205px);
+        display:inline-block;
+        vertical-align: top;
+        box-sizing:border-box
+    }
+
     button.tab-btn {
         background: white;
         font-weight: bold;
@@ -321,6 +343,8 @@ html,body {
         width: 100%;
         vertical-align: top;
         max-width :500px;
+        box-sizing:border-box;
+        padding: 0 15px;
 
         h3{
             font-size: 30px;
@@ -363,6 +387,18 @@ html,body {
 
     .moon-darkmode {
         margin: 0 5px;
+    }
+
+    #scout {
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .o-5 {
+        background-color: rgba(0,0,0,.5);
+        height: 100%;
+        width: 100%;
     }
 
     #moon-hover {
@@ -443,10 +479,6 @@ html,body {
         clear: left;
         text-align: left;
 
-        :hover {
-            z-index: 1100;
-            transform: scale(1.2);
-        }
     }
     
     #social i {
