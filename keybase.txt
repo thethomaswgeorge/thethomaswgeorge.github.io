@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/twg62
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://thethomasgeorge.com
+  * I am twg62 (https://keybase.io/twg62) on keybase.
+  * I have a public key ASBsC4VX3bAgoRR6_dCdkSj_NtqPYLKLNW5ZgQ_823w8oAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206c0b8557ddb020a1147afdd09d9128ff36da8f60b28b356e59810ffcdb7c3ca00a",
+      "host": "keybase.io",
+      "kid": "01206c0b8557ddb020a1147afdd09d9128ff36da8f60b28b356e59810ffcdb7c3ca00a",
+      "uid": "ce1c946116af3762659914a413080019",
+      "username": "twg62"
+    },
+    "merkle_root": {
+      "ctime": 1587501649,
+      "hash": "4448574854bba60960fc3fde15fa48221d0c806df8e048648c202203dfcc5c56c96602b1ce6302eb1eaca2fb5a9e43353efaddec167810c80f131b070989d659",
+      "hash_meta": "726e73b8d4811df6bcf9428cda09aa6168bc261d712975567da9a662e42961d2",
+      "seqno": 16004581
+    },
+    "service": {
+      "entropy": "40dnPdoVfnfQLrsXmzCoIMHa",
+      "hostname": "thethomasgeorge.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.0"
+  },
+  "ctime": 1587501702,
+  "expire_in": 504576000,
+  "prev": "44dfa3021c64af12d50e355d697568654901e78355fd69ca520ef3f32b7f10e5",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbAuFV92wIKEUev3QnZEo/zbaj2CyizVuWYEP/Nt8PKAKp3BheWxvYWTESpcCBsQgRN+jAhxkrxLVDjVdaXVoZUkB54NV/WnKUg7z8yt/EOXEIPr28x0WkDNWJtRrrIMz2++nBtpWvTlSte8jpYavmM3sAgHCo3NpZ8RArYjRofJ9C2cPoD0a6irUKatzKWCY+bcfbxbYz802AlEsgjSr1mepcps1l0Lfzn5MO7Tpt1SbbSqrGA13tEpKC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICXn/804eIhlzcEyXEewMgYt6CUHlHcPmIPyV+U40n6Ao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/twg62
+
+==================================================================
