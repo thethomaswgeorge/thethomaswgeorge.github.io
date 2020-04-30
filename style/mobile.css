@@ -34,4 +34,21 @@
         display:block !important;
         text-align: center;
     }
+    .job-left {
+        width: 100% !important;
+        max-width: 100% !important;
+        display:block !important;
+    }
+    .job-left .job-img {
+        margin: 0 auto !important;
+    }
+    .job-right {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .job-row .job-right h3,.job-row .job-right div small {
+        text-align: center !important;
+        display: block !important;
+
+    }
 }
