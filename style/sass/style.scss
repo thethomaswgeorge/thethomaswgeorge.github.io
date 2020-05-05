@@ -201,6 +201,10 @@ html,body {
             height: 100%;
             background-size: cover;
             box-sizing: border-box;
+
+            .o3 {
+                position: relative;
+            }
         }
 
         h3.blog-title {
@@ -208,8 +212,15 @@ html,body {
             height: 100%;
             margin: 0;
             padding: 87px 15px;
-            font-size: 25px;
+            font-size: 22px;
             line-height: 1.5em;
+        }
+        .fa-medium {
+            position: absolute;
+            color: #fff;
+            bottom: 20px;
+            right: 20px;
+            font-size: 39px;
         }
     }
 
