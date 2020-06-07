@@ -159,8 +159,6 @@ html,body {
         font-size: 25px;
         vertical-align: middle;
     }
-
-
     
     #social {
         background: transparent;
@@ -176,6 +174,41 @@ html,body {
     button.current-btn {
         background: black;
         color: #fff;
+    }
+
+    .video {
+        width: 350px;
+        z-index: 1010;
+        background: white;
+        cursor: pointer;
+        margin: 0;
+        vertical-align: top;
+        height: 240px;
+        background-position: center;
+        background-size: cover;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 0;
+        border: none;
+        clear: left;
+    }
+
+    .video-img {
+        height: 100%;
+        background-size: cover;
+        box-sizing: border-box;
+
+        .o3 {
+            position: relative;
+        }
+    }
+    h3.video-title {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 87px 15px;
+        font-size: 22px;
+        line-height: 1.5em;
     }
 
     div#blog-listings {
