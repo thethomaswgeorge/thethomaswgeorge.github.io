@@ -124,7 +124,7 @@ $(".project-box").on("click", function () {
             changeTheme('#fff', '#27ae60');
             break;
         case "heap":
-            changeTheme('#1fb4fe', '#fff');
+            changeTheme('#59daff', '#fff');
             break;
 
     }
